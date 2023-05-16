@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style type="text/css">
+      .error{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+  <form id="form">
+     <div class="container-fluid" style="border: 2px solid black; padding: 40px; margin: 30px; background-color: skyblue;">
+     <div class="row" style="margin-top: 10px; margin-bottom: 5px; padding: 5px">
+   <div class="col">
+    <label>First Name</label>
+    <input type="text" 
+    class="form-control"
+     placeholder="First name"  
+     id="firstname">
+     <div class="error"></div>
+   </div>
+   <div class="col">
+    <label>Last Name</label>
+    <input type="text"
+    id="lastname" 
+    class="form-control" 
+    placeholder="Last name">
+    <div class="error"></div>
+  </div>
+</div>
+ <div class="row" style="margin-top: 10px; margin-bottom: 5px; padding: 5px;">
+   <div class="col">
+    <label>Email</label>
+    <input type="email" 
+    class="form-control"
+     placeholder="youremail@gmail.com" 
+     id="email">
+     <div class="error"></div>
+   </div>
+   <div class="col">
+    <label>Password</label>
+    <input type="password"
+    id="password" 
+    class="form-control" 
+    placeholder="Password">
+    <div class="error"></div>
+  </div>
+</div>
+ 
+ <div style="text-align: center";>
+   <input type="submit" name="submit" value="submit" style="margin-top: 10px">
+ </div>
+   </div>
+   <h4 id="head3" style="text-align:center; color:green;"></h4>
+  </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./Project2.js"></script>
+  </body>
+</html>
